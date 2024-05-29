@@ -1,0 +1,58 @@
+// Comentario de una línea
+/* Comentario
+   de multiples
+   lineas */
+
+int suma(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int x;
+    x = 10;
+    int y = 20;
+    double z = 30.5;
+
+    // Asignaciones
+    x = x + 1;
+    y = y - 2;
+    z = z * 2.5;
+
+    // Condicional if-else
+    if (x < y) {
+        x = x + 5;
+    } else {
+        x = x - 5;
+    }
+
+    // Bucle for
+    for (int i = 0; i < 10; i++) {
+        x = x + i;
+    }
+
+    // Bucle while
+    while (x > 0) {
+        x = x - 1;
+    }
+
+    // Switch-case
+    switch (x) {
+        case 1:
+            x = x + 1;
+            break;
+        case 2:
+            x = x + 2;
+            break;
+        default:
+            x = x + 10;
+            break;
+    }
+
+    // Llamada a función
+    int resultado = suma(x, y);
+
+    // Print
+    print("Hola");
+
+    return 0;
+}
